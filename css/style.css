@@ -1,0 +1,20 @@
+.fas:hover {
+    color: blue;
+}
+
+.status {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.computer-choos {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.rst {
+    display: block !important;
+}

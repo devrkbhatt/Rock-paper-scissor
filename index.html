@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Rock,Paper,Scissor</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b8529ec5a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center no-gutters">
+            <div class="col-sm-4 ">
+                <h1 class="text-center text-muted mt-3">Rock,Paper,Scissor</h1>
+                <button type="button" class="btn btn-sm btn-primary w-100 d-none" id="reset">Reset</button>
+                <div>
+                    <p class="float-left bg-primary w-50 text-center mt-md-2 p-1 text-white">Player:<em
+                            class="p-score"></em>
+                    </p>
+                    <p class="float-right bg-dark w-50 text-center mt-md-2 p-1 text-white">Computer:<em
+                            class="c-score"></em>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-sm-6 d-flex justify-content-around">
+
+                <a href="#exampleModalCenter" data-toggle="modal" id="rock"><i class="fas fa-hand-rock fa-10x hdd"
+                        id="rock"></i></a>
+                <a href="#exampleModalCenter" data-toggle="modal" id="paper"><i class="fas fa-hand-paper fa-10x hdd"
+                        id="paper"></i></a></a>
+                <a href="#exampleModalCenter" data-toggle="modal" id=" scissor"><i
+                        class="fas fa-hand-scissors fa-10x hdd" id="scissor"></i></a>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body text-center">
+                                <p class="status"></p>
+                                <p class="result-icon"><i class="fas fa-hand-rock fa-10x"></i></p>
+                                <p class="computer-choose">Computer choose </p>
+
+
+                            </div>
+                            <!-- <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
